@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/file"
+        android:icon="@drawable/ic_menu_open"
+        android:title="@string/menuFile"
+        android:orderInCategory="1000"
+        android:contentDescription="@string/menuFileDetail"
+        android:showAsAction="always">
+        
+		<!-- file functions submenu -->        
+        
+        <menu>
+		    <item 
+		        android:id="@+id/create"
+		        android:icon="@drawable/ic_menu_new"
+		        android:title="@string/menuNew" 
+		        android:contentDescription="@string/menuNewDetail"
+		        android:showAsAction="never"/>
+		    <item 
+		        android:id="@+id/open"
+		        android:icon="@drawable/ic_menu_open"
+		        android:title="@string/menuOpen" 
+		        android:contentDescription="@string/menuOpenDetail"
+		        android:showAsAction="never"/>
+		    <item
+		        android:id="@+id/save"
+		        android:icon="@drawable/ic_menu_save"
+		        android:title="@string/menuSave"
+		        android:contentDescription="@string/menuSaveDetail"
+		        android:showAsAction="never"/>
+		    <item 
+		        android:id="@+id/delete"
+		        android:icon="@drawable/ic_menu_delete"
+		        android:title="@string/menuDelete" 
+		        android:contentDescription="@string/menuDeleteDetail"
+		        android:showAsAction="never"/>
+        </menu>
+        
+    </item>
+    
+</menu>

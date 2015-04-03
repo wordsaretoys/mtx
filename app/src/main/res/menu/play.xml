@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/action_softer"
+        android:icon="@drawable/ic_action_softer"
+        android:orderInCategory="500"
+        android:showAsAction="always|withText"
+        android:title="@string/menuSofter"
+        android:contentDescription="@string/menuSofterDetail"/>
+
+    <item
+        android:id="@+id/action_louder"
+        android:icon="@drawable/ic_action_louder"
+        android:orderInCategory="501"
+        android:showAsAction="always|withText"
+        android:title="@string/menuLouder"
+        android:contentDescription="@string/menuLouderDetail"/>
+
+</menu>

@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment  
+        android:name="com.wordsaretoys.mtx.PlayFragment"
+        android:id="@+id/playFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"/>
+
+    <fragment  
+        android:name="com.wordsaretoys.mtx.EditFragment"
+        android:id="@+id/editFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"/>
+    
+</LinearLayout>

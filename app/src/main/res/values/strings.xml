@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MtX</string>
+
+    <!-- file menu labels -->
+    
+    <string name="menuFile">File functions</string>
+    <string name="menuFileDetail">Scale file functions</string>
+    <string name="menuNew">New</string>
+    <string name="menuNewDetail">New scale</string>
+    <string name="menuOpen">Open</string>
+    <string name="menuOpenDetail">Open scale</string>
+  	<string name="menuSave">Save</string>
+  	<string name="menuSaveDetail">Save scale</string>
+  	<string name="menuDelete">Delete</string>    
+  	<string name="menuDeleteDetail">Delete scale</string>    
+    
+  	<!-- play menu labels -->
+  	
+  	<string name="menuLouder">Louder</string>
+  	<string name="menuLouderDetail">Increase volume</string>
+  	<string name="menuSofter">Softer</string>
+  	<string name="menuSofterDetail">Decrease volume</string>
+  	
+    <!-- edit/action menu labels -->
+    
+    <string name="menuAddTone">Add tone to scale</string>
+
+    <string name="menuTone"> Tone</string>
+    <string name="menuStep"> Step</string>
+    
+    <string name="menuNextStep">Increase step by one</string>
+    <string name="menuPrevStep">Decrease step by one</string>
+    <string name="menuDelTone">Remove tone from scale</string>
+    
+    <!-- tab labels -->
+    
+    <string name="menuModeEdit">Edit</string>
+    <string name="menuModePlay">Play</string>
+    
+    <!-- dialog labels -->
+    
+    <string name="dlgOpenTitle">Select scale to open</string>
+    <string name="dlgSaveTitle">Enter name of new scale</string>
+
+    <string name="dlgDeleteTitle">Permanently delete the current scale?</string>
+    <string name="dlgDiscardTitle">Discard changes to the current scale?</string>
+    
+    <string name="dlgYes">Yes</string>
+    <string name="dlgNo">No</string>
+    <string name="dlgCancel">Cancel</string>
+    <string name="dlgSave">Save</string>
+    
+    <!-- toasts -->
+    
+    <string name="toastSaveFailed">Save failed. Please try again later.</string>
+    <string name="toastDeleteFailed">Delete failed. Please try again later.</string>
+    
+</resources>

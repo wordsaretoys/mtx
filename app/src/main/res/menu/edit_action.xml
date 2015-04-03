@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/action_prev_step"
+        android:icon="@drawable/ic_action_sub"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menuStep"
+        android:contentDescription="@string/menuPrevStep"/>
+    
+    <item
+        android:id="@+id/action_next_step"
+        android:icon="@drawable/ic_action_add"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menuStep"
+        android:contentDescription="@string/menuNextStep"/>
+
+    <item
+        android:id="@+id/action_del_tone"
+        android:icon="@drawable/ic_action_remove"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menuTone"
+        android:contentDescription="@string/menuDelTone"/>
+    
+</menu>
